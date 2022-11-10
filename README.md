@@ -1,4 +1,4 @@
-# TypeScript CRA with husky
+# 한국임상정보 검색창 구현
 
 ## 구현 목표
 
