@@ -12,9 +12,7 @@ const Layout = () => {
           </Link>
         </div>
       </LayoutHeader>
-      <LayoutMain>
-        <Outlet />
-      </LayoutMain>
+      <Outlet />
     </LayoutContainer>
   );
 };
@@ -27,7 +25,7 @@ const LayoutContainer = styled.div`
 export const LayoutHeader = styled.div`
   & > div {
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: ${({ theme }) => theme.size.maxW};
     padding: 16px 20px;
 
     a {
@@ -35,8 +33,4 @@ export const LayoutHeader = styled.div`
       padding: 0 6px;
     }
   }
-`;
-
-export const LayoutMain = styled.div`
-  min-height: calc(100vh - 56px);
 `;
