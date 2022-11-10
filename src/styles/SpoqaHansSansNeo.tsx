@@ -28,7 +28,7 @@ const SpoqaHansSansNeoFont = css`
     font-family: "Spoqa Han Sans Neo";
     font-weight: 700;
     src: local("Spoqa Han Sans Neo Bold"),
-      url("./SpoqaHanSansNeo-Bold.woff2") format("woff2"),
+      url("./fonts/SpoqaHanSansNeo-Bold.woff2") format("woff2"),
       url("./fonts/SpoqaHanSansNeo-Bold.woff") format("woff"),
       url("./fonts/SpoqaHanSansNeo-Bold.ttf") format("truetype");
   }

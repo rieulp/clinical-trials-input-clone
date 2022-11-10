@@ -5,7 +5,6 @@ import Reset from "./Reset";
 const GlobalStyle = createGlobalStyle`
 ${Reset};
 
-${SpoqaHansSansNeoFont}
 
 body {
   font-family: 'Spoqa Han Sans Neo',-apple-system,'BlinkMacSystemFont',
