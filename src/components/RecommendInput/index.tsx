@@ -53,7 +53,7 @@ const RecommendInput = () => {
         setKeyword(newKeyword);
         setFocusIndex(-1);
       }
-    }, 200);
+    }, 100);
   };
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
